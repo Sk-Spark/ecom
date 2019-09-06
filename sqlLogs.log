@@ -1,0 +1,17 @@
+Erorr:  insert into customer(Fname, Lname, Email, Pass, Country, Sate, City, Pincode, HouseNo, LandMark, Gender )
+             values(
+            'qwe',
+            'qwe',
+            'qwe@qwe.com',
+            'qwe',
+            'qwe',
+            'qwe',
+            'qwe',
+              234,
+              123,
+            'qwe',
+            'm'
+
+             ); 
+No database selected
+
