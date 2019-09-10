@@ -1,3 +1,6 @@
+-- Database for ecom
+-- create database ecom;
+
 create table customer (
     id      int not null auto_increment,
     Fname   varchar(100) not null,
