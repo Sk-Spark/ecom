@@ -9,25 +9,23 @@
     
         $conn = new mysqli($serverName,$user,$pass);
     
-        if($conn->connect_error)
-        {
-            echo "Error while connecting !!!<br>";
-        }
-        else
-        {
-            echo "Connected Successfully !!!<br>";
-        }
+        // if($conn->connect_error)
+        // {
+        //     echo "Error while connecting !!!<br>";
+        // }
+        // else
+        // {
+        //     echo "Connected Successfully !!!<br>";
+        // }
         
         $conn->query("use ".$database);
 
         return $conn;       
     } 
 
-    function addCustomer( $FName, $LName, $Email, $Pass, $Country, $State, $City, $Pincode, $HouseNo, $LandMark, $Gender )
+    function addCustomer( $FName, $LName, $Email, $Pass, $Country, $State, $City, $Pincode, $HouseNo, $LandMark, $Gender, $vk )
     {
-        $conn = getConn();
-
-        $vk = md5(time().$FName);
+        $conn = getConn();        
         
         $sql = " insert into customer(Fname, Lname, Email, Pass, Country, Sate, City, Pincode, HouseNo, LandMark, Gender, Valid )
              values(
@@ -62,6 +60,27 @@
             fclose($myfile);
 
             return false;
+        }
+    }
+
+    function isEmailPresent($email)
+    {
+        $conn = getConn();
+
+        $sql = "select * from customer where Email='$email'";
+        // echo $sql."<br>";
+        try{
+            $result = $conn->query($sql);
+
+            if($result->num_rows == 0 )
+                return 0;
+            else
+                return 1;
+
+        }
+        catch(Exception $e)
+        {
+            return 2;
         }
     }
 

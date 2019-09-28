@@ -1,6 +1,7 @@
 <?php
 
 include 'DatabaseHelper.php';
+include 'mail.php';
 
 if( $_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -22,13 +23,24 @@ if( $_SERVER["REQUEST_METHOD"] == "POST")
         $Gender = "m";
     else
         $Gender = "f";
-    
-    $rs = addCustomer( $FName, $LName, $Email, $Pass, $Country, $State, $City, $Pincode, $HouseNo, $LandMark, $Gender );
+
+    $rs = isEmailPresent($Email);
+    // echo "rs:".$rs."<br>";
+
+    if($rs > 0)
+    {
+        header("Location: index.php?error=".$rs);
+        return;
+    }
+    $vk = md5(time().$FName);
+    $rs = addCustomer( $FName, $LName, $Email, $Pass, $Country, $State, $City, $Pincode, $HouseNo, $LandMark, $Gender,$vk );
 
     if($rs === true)
     {
         echo "Customer add successfully !!!";
-        header("Location: verify.php");
+        $msg = "This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=$vk";
+        sendMail($Email, 'Email verification', $msg);
+        header("Location: registrationMsg.php");
     }
     else
     {

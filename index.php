@@ -15,6 +15,17 @@
 
 </div> -->
 
+<script>
+    <?php
+        if($_GET["error"] != null)
+        {
+            $error = $_GET["error"];
+            if($error == 1)
+                echo(" alert('Email ID already exist.'); ");
+        }
+    ?>
+</script>
+
 <div class="div_main">
     <div class="div_heading">
         Create a new Account
@@ -36,8 +47,8 @@
             <input name="country"  required="true" class="input" type="text" placeholder="Country" >  
             <input name="state"    required="true" class="input" type="text" placeholder="State" > <br>
             <input name="city"     required="true" class="input" type="text" placeholder="City" > <br>
-            <input name="pincode"  required="true" class="input" type="text" placeholder="Pincode" > <br>
-            <input name="houseNo"  required="true" class="input" type="text" placeholder="House Number" > 
+            <input name="pincode"  id="pincode" required="true" class="input" type="text" placeholder="Pincode" > <br>
+            <input name="houseNo"  id="houseNo" required="true" class="input" type="text" placeholder="House Number" > 
             <input name="landMark" required="true" class="input" type="text" placeholder="Land Mark" > <br>
         </fieldset>
 
@@ -58,6 +69,20 @@
 </body>
 
 <script>
+
+    function allnumeric(inputtxt)
+    {
+       var numbers = /^[0-9]+$/;
+       if(inputtxt.value.match(numbers))
+       {
+           return true;
+       }
+       else
+       {            
+            return false;
+       }
+    }
+   
     function validate()
     {
         let pass   = document.getElementById("pass").value;
@@ -65,6 +90,21 @@
 
         let m = document.getElementById("gender_m");
         let f = document.getElementById("gender_f");
+        
+        if(allnumeric(document.getElementById('pincode')) == false)
+        {
+            alert('Enter Number only in pincode.');
+            allnumeric(document.getElementById('pincode')).focus();
+            return false;
+        }
+
+        if(allnumeric(document.getElementById('houseNo')) == false)
+        {
+            alert('Enter Number only in House No.');
+            document.getElementById('houseNo').focus();
+            return false;
+        }
+
 
         console.log(pass+" : "+repass);
 

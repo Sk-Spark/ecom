@@ -1,0 +1,553 @@
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP u4sm23134654pfh.55 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK u4sm23134654pfh.55 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK u4sm23134654pfh.55 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead u4sm23134654pfh.55 - gsmtp
+CLIENT -> SERVER: Date: Thu, 12 Sep 2019 22:30:08 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: SUBsub test
+CLIENT -> SERVER: Message-ID: <3loROB3YvnpjFidkxdFAo8EP1hl049HQH6AdoKQ@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: SKmsg text
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568307621 u4sm23134654pfh.55 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection u4sm23134654pfh.55 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP x12sm29241667pff.49 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK x12sm29241667pff.49 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK x12sm29241667pff.49 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead x12sm29241667pff.49 - gsmtp
+CLIENT -> SERVER: Date: Thu, 12 Sep 2019 22:31:27 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: SUBPhp Mail Test
+CLIENT -> SERVER: Message-ID: <VqfgGIjSrcdlKA5KeAWI9WYgjOhhkrjV6gxL0twVY@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: SKThis is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568307701 x12sm29241667pff.49 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection x12sm29241667pff.49 - gsmtp
+ERROR: Invalid address:  (to): ERROR: Invalid address:  (to): SERVER -> CLIENT: 220 smtp.gmail.com ESMTP y7sm26178748pfn.131 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK y7sm26178748pfn.131 - gsmtp
+CLIENT -> SERVER: RCPT TO:<sndpatel1994@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK y7sm26178748pfn.131 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead y7sm26178748pfn.131 - gsmtp
+CLIENT -> SERVER: Date: Thu, 12 Sep 2019 22:37:33 +0530
+CLIENT -> SERVER: To: sndpatel1994@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Php Mail Test
+CLIENT -> SERVER: Message-ID: <xZii5We8ztlnDWc9BPrhCf1kBGeG74TGCZ3Brq4NZdk@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568308065 y7sm26178748pfn.131 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection y7sm26178748pfn.131 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a11sm42446166pfg.94 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK a11sm42446166pfg.94 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skasspark@yahoo.com>
+SERVER -> CLIENT: 250 2.1.5 OK a11sm42446166pfg.94 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead a11sm42446166pfg.94 - gsmtp
+CLIENT -> SERVER: Date: Thu, 12 Sep 2019 22:39:33 +0530
+CLIENT -> SERVER: To: skasspark@yahoo.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Php Mail Test
+CLIENT -> SERVER: Message-ID: <dJxEzzj0p7fqWldeJTRRLq2aTJ6xyDBEVAO3bNrQ@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568308186 a11sm42446166pfg.94 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection a11sm42446166pfg.94 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP q132sm28092622pfq.16 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK q132sm28092622pfq.16 - gsmtp
+CLIENT -> SERVER: RCPT TO:<rajatbaiss@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK q132sm28092622pfq.16 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead q132sm28092622pfq.16 - gsmtp
+CLIENT -> SERVER: Date: Thu, 12 Sep 2019 22:45:19 +0530
+CLIENT -> SERVER: To: rajatbaiss@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Php Mail Test
+CLIENT -> SERVER: Message-ID: <U5JhLkfXv2z4Oiton9VVS1p93yzJtUIEloGJwCBQ@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568308532 q132sm28092622pfq.16 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection q132sm28092622pfq.16 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP o22sm427576pjq.21 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK o22sm427576pjq.21 - gsmtp
+CLIENT -> SERVER: RCPT TO:<sumitbangar59@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK o22sm427576pjq.21 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead o22sm427576pjq.21 - gsmtp
+CLIENT -> SERVER: Date: Thu, 12 Sep 2019 22:45:48 +0530
+CLIENT -> SERVER: To: sumitbangar59@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Php Mail Test
+CLIENT -> SERVER: Message-ID: <qGpjISRwnsINtAETILUN3EhepyFSX8tVHooATZghBAY@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568308559 o22sm427576pjq.21 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection o22sm427576pjq.21 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP s1sm1127350pjs.31 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK s1sm1127350pjs.31 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK s1sm1127350pjs.31 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead s1sm1127350pjs.31 - gsmtp
+CLIENT -> SERVER: Date: Fri, 13 Sep 2019 10:52:31 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <rrl5mIPp2RepeRZlsVgkkpRDFg74GgXuVvubehLpg@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/verify.php?id=skkumartheking@gmail.com&vk=305d840415b41f484e92e7ce3d5cf343
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568352165 s1sm1127350pjs.31 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection s1sm1127350pjs.31 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP p1sm22977295pfb.112 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK p1sm22977295pfb.112 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK p1sm22977295pfb.112 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead p1sm22977295pfb.112 - gsmtp
+CLIENT -> SERVER: Date: Fri, 13 Sep 2019 10:55:48 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <x43YZ3eiE7v8VLfNyy5NcwP5Yxd5NXW0jM53gR9oM@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/verify.php?vk=09902daadf8d6389a939cf109c310dbe
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568352361 p1sm22977295pfb.112 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection p1sm22977295pfb.112 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP j23sm12559640pfn.75 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK j23sm12559640pfn.75 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK j23sm12559640pfn.75 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead j23sm12559640pfn.75 - gsmtp
+CLIENT -> SERVER: Date: Fri, 13 Sep 2019 10:56:55 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <PGoW5Gkz0XDrUQlbdsghlwKBzdohEtp5eaJOzasMiE@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=fb495f66bb763bffee750e293f5a7ba5
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568352428 j23sm12559640pfn.75 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection j23sm12559640pfn.75 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP z12sm42368907pfj.41 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK z12sm42368907pfj.41 - gsmtp
+CLIENT -> SERVER: RCPT TO:<vivekpanditmnnit@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK z12sm42368907pfj.41 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead z12sm42368907pfj.41 - gsmtp
+CLIENT -> SERVER: Date: Fri, 13 Sep 2019 10:58:45 +0530
+CLIENT -> SERVER: To: vivekpanditmnnit@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Php Mail Test
+CLIENT -> SERVER: Message-ID: <cFi9yl03YN7ElPbxFB00cdFHT89jUEOvqM82cfTF4Q@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568352538 z12sm42368907pfj.41 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection z12sm42368907pfj.41 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP b10sm6835974pfo.123 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK b10sm6835974pfo.123 - gsmtp
+CLIENT -> SERVER: RCPT TO:<satyammnnit2017@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK b10sm6835974pfo.123 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead b10sm6835974pfo.123 - gsmtp
+CLIENT -> SERVER: Date: Fri, 13 Sep 2019 10:59:37 +0530
+CLIENT -> SERVER: To: satyammnnit2017@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Php Mail Test
+CLIENT -> SERVER: Message-ID: <9SQpU7hrARodEH8axcw1Kmdgjq67jC9mwOD82RWfqg@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is to test php mailer
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568352590 b10sm6835974pfo.123 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection b10sm6835974pfo.123 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP g202sm36043148pfb.155 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.177.83]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK g202sm36043148pfb.155 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK g202sm36043148pfb.155 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead g202sm36043148pfb.155 - gsmtp
+CLIENT -> SERVER: Date: Fri, 13 Sep 2019 11:00:46 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <o4454I4KIBrFxH2zBN4yNkBJuKfZ1QtinLJgBezAtg@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=b43365687f7ba653a9d601b2c263bcc1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1568352659 g202sm36043148pfb.155 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection g202sm36043148pfb.155 - gsmtp
+SMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingERROR: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingERROR: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
