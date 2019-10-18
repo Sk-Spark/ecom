@@ -550,4 +550,141 @@ CLIENT -> SERVER: .
 SERVER -> CLIENT: 250 2.0.0 OK  1568352659 g202sm36043148pfb.155 - gsmtp
 CLIENT -> SERVER: QUIT
 SERVER -> CLIENT: 221 2.0.0 closing connection g202sm36043148pfb.155 - gsmtp
-SMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingERROR: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingERROR: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+SMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingERROR: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP ERROR: Failed to connect to server: php_network_getaddresses: getaddrinfo failed: Name or service not known (0)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingERROR: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSERVER -> CLIENT: 220 smtp.gmail.com ESMTP ep10sm18170088pjb.2 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.216.187]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.216.187]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK ep10sm18170088pjb.2 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK ep10sm18170088pjb.2 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead ep10sm18170088pjb.2 - gsmtp
+CLIENT -> SERVER: Date: Fri, 18 Oct 2019 10:37:01 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <4OujMXNp8kWpXfJzv4cSrhKLnGxCgoUaPtt2tlzS4@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=b7c31e67691b1ce34946638933381557
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1571375233 ep10sm18170088pjb.2 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection ep10sm18170088pjb.2 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP m13sm4867287pgi.22 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.216.187]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.216.187]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK m13sm4867287pgi.22 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK m13sm4867287pgi.22 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead m13sm4867287pgi.22 - gsmtp
+CLIENT -> SERVER: Date: Fri, 18 Oct 2019 10:48:25 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <xVj4eW0LTY2U7rqyZEEWRjCNf5kZrvgeAoairXlA@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=d01b00ec49df58429e8b9c5676c75c1f
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1571375917 m13sm4867287pgi.22 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection m13sm4867287pgi.22 - gsmtp
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP e192sm4511803pfh.83 - gsmtp
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.216.187]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: STARTTLS
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+CLIENT -> SERVER: EHLO localhost
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [171.76.216.187]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+CLIENT -> SERVER: AUTH LOGIN
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+CLIENT -> SERVER: <credentials hidden>SERVER -> CLIENT: 235 2.7.0 Accepted
+CLIENT -> SERVER: MAIL FROM:<kabhimiliomuje@gmail.com>
+SERVER -> CLIENT: 250 2.1.0 OK e192sm4511803pfh.83 - gsmtp
+CLIENT -> SERVER: RCPT TO:<skkumartheking@gmail.com>
+SERVER -> CLIENT: 250 2.1.5 OK e192sm4511803pfh.83 - gsmtp
+CLIENT -> SERVER: DATA
+SERVER -> CLIENT: 354  Go ahead e192sm4511803pfh.83 - gsmtp
+CLIENT -> SERVER: Date: Fri, 18 Oct 2019 10:49:34 +0530
+CLIENT -> SERVER: To: skkumartheking@gmail.com
+CLIENT -> SERVER: From: "ecom.com" <kabhimiliomuje@gmail.com>
+CLIENT -> SERVER: Subject: Email verification
+CLIENT -> SERVER: Message-ID: <dSf85o07h5t8TVdHDiNoucnCO48yaYp9Xst9uhZ9v0@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.0.7 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=e47d2faee05787e76a745fd2463dff35
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+SERVER -> CLIENT: 250 2.0.0 OK  1571375984 e192sm4511803pfh.83 - gsmtp
+CLIENT -> SERVER: QUIT
+SERVER -> CLIENT: 221 2.0.0 closing connection e192sm4511803pfh.83 - gsmtp

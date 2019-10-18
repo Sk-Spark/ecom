@@ -41,6 +41,17 @@ fieldset{
     padding-left: 10%;
 }
 
+.div_user{
+    float: right;
+    padding-right: 6%;
+    font-size: 80%;
+}
+
+.div_user a {
+    text-decoration : none;
+    color: rgb(199, 125, 28);
+}
+
 #form_register{
     margin: 3%;
     padding: 3%;

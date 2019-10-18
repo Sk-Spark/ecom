@@ -29,7 +29,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST")
 
     if($rs > 0)
     {
-        header("Location: index.php?error=".$rs);
+        header("Location: indexRegister.php?error=".$rs);
         return;
     }
     $vk = md5(time().$FName);

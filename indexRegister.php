@@ -7,7 +7,13 @@
 
 <body>
 
-<?php include 'header.php'; ?>
+<?php include 'header.html'; ?>
+<!-- 
+<div class="div_nav" >
+
+    eCom.com
+
+</div> -->
 
 <script>
     <?php

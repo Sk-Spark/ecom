@@ -84,5 +84,37 @@
         }
     }
 
+    function validateEmail($vk)
+    {
+        $conn = getConn();
+
+        $sql = "update customer set Valid = 1 where Valid = '$vk'";
+
+        try{
+            // $result = $conn->query($sql);
+            // return $conn->;
+            mysqli_query($conn, $sql);
+
+            if( mysqli_affected_rows($conn) > 0 )
+                return 0;
+            else
+                return 1;
+
+        }
+        catch(Exception $e)
+        {
+            return 2;
+        }
+        finally{
+            $conn->close();
+        }
+
+    }
+
+    function verifyLogin($email, $pass)
+    {
+        $sql = "select id, Fname, Lname from customer where email='$email' and pass ='$pass'";
+    }
+
     
 ?>
