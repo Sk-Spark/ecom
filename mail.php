@@ -16,7 +16,7 @@ function sendMail($mailTo, $sub, $msg)
         // $mail->Host = 'smtp.mail.yahoo.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'kabhimiliomuje@gmail.com';
-        $mail->Password = 'google@google';
+        $mail->Password = 'spark1@google';
         $mail->SMTPSecure = 'tls';
         // $mail->Port = 465;
     

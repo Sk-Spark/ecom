@@ -32,13 +32,32 @@
 </head>
 <body>
     <?php
-        include 'header.html';
+        include 'header.php';
     ?>
     <div id="div_main">
         <div id="div_head">
-            <div id="s_1"> Thank You <br> For registering </div> <br>
-            <div id="s_2"> We have send a Verification link to your registered Email id, <br>
-                            click on that link to verify your account.   </div>  
+
+        <?php
+
+            $rst = $_GET["k"];
+
+
+            if($rst == "1")
+            {
+                echo '<div id="s_1"> Thank You <br> For registering </div> <br>
+                <div id="s_2"> We have send a Verification link to your registered Email id, <br>
+                click on that link to verify your account.   </div> ';
+            }
+            else
+            {
+                echo '<div id="s_1"> Thank You <br> For registering </div> <br>
+                <div id="s_2"> We are unable to send you a verification link right now. <br>
+                You will recive it as soon as possible.   </div> ';
+            }
+        
+        ?>
+
+             
         </div>
 
     </div>

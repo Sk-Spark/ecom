@@ -32,7 +32,7 @@
 </head>
 <body>
     <?php
-        include 'header.html';
+        include 'header.php';
     ?>
     <div id="div_main">
         <div id="div_head">

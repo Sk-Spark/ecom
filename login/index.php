@@ -34,6 +34,8 @@
 
         <button id="btn_register" > Login </button>
 
+        <a href="../indexRegister.php" id="btn_register" > Register New User </a>
+
     </form>
 
 

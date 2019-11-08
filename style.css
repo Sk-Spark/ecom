@@ -64,6 +64,7 @@ fieldset{
     border: 2px solid #00000000 ;
     font-size: 130%;
     transition: .5s;
+    text-decoration: none;
 }
 
 #btn_register:hover{

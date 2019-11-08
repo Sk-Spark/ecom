@@ -39,8 +39,8 @@ if( $_SERVER["REQUEST_METHOD"] == "POST")
     {
         echo "Customer add successfully !!!";
         $msg = "This your link to verify your emailid: <br> http://localhost/ecom/verify.php?vk=$vk";
-        sendMail($Email, 'Email verification', $msg);
-        header("Location: registrationMsg.php");
+        $rst = sendMail($Email, 'Email verification', $msg);
+        header("Location: registrationMsg.php?k=$rst");
     }
     else
     {

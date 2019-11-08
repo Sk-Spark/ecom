@@ -113,8 +113,59 @@
 
     function verifyLogin($email, $pass)
     {
-        $sql = "select id, Fname, Lname from customer where email='$email' and pass ='$pass'";
+        $sql = "select id, Fname, Lname from customer where email='$email' and pass=$pass";
+        $conn = getConn();
+
+        try{
+            $result = $conn->query($sql);
+
+            if($result->num_rows == 0 )
+                return 0;
+            else
+            {
+                $row = $result->fetch_assoc();
+                return $row["id"];
+            }                
+
+        }
+        catch(Exception $e)
+        {
+            return 2;
+        }
+        finally{
+            $conn->close();
+        }
+
+        
     }
+
+    function getUserData($id)
+    {
+        $sql = "select Fname, Lname from customer where id=$id ";
+        $conn = getConn();
+
+        try{
+            $result = $conn->query($sql);
+
+            if($result->num_rows == 0 )
+                return 0;
+            else
+            {               
+                return $result;
+            }                
+
+        }
+        catch(Exception $e)
+        {
+            return 2;
+        }
+        finally{
+            $conn->close();
+        }
+
+        
+    }
+
 
     
 ?>
